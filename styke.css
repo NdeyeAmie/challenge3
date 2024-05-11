@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    background-color: #f3eae3;
+  }
+
+  .content {
+    margin: 3.125rem auto 0 auto;
+   
+  }
+  
+  @media (min-width: 576px) {
+    .content {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      max-width: 720px;
+    }
+  }
+
+  .content-firt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .content-firt {
+        display: block;
+      padding: 2.5rem;
+    } 
+  }
+
+  .img img  {
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    object-fit: cover;
+  
+  }
+  .card {
+    background-color: #FFFF;
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    border-radius: 5px;
+  }
+
+  .text {
+    margin: 20px;
+  }
+
+  h3 {
+    color: gray;
+    font-size: 18px;
+  }
+
+  h2 {
+   
+    font-size: 35px;
+    font-family: Georgia, serif;
+  }
+
+  p{
+    margin-top: -1rem;
+    color: gray;
+    font-size: 20px;
+  }
+
+  .text-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: -2rem;
+  }
+
+  h1{
+    color: #3d8168;
+  }
+
+  span {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  .btn {
+
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+  }
+
+  #card{
+    position: absolute;
+   top: 0;
+   bottom: 0;
+   margin-top: 1rem;
+   margin-left: 20px;
+   color: white;
+  }
+
+  button{
+   background-color: #3d8168;
+    width: 60%;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+  }
